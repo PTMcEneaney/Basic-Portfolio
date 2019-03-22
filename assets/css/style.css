@@ -1,0 +1,121 @@
+
+body {
+    
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+h3 {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 100;
+}
+label {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-weight: 100;
+}
+h4 {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 100;
+    color: #cccccc;
+    display: inline-block;
+    font-size: 12px;
+}
+p {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+a {
+    text-decoration: none;
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#navBorder1 {
+    border-right: 1px solid #cccccc;
+}
+#navBorder2 {
+    border-right: 1px solid #cccccc;
+}
+.firstContainer{
+    margin: auto;
+    background-color: #ffffff;
+}
+.secondContainer {
+    width: 960px;
+    text-align: left;
+    margin: auto;
+    
+}
+.thirdContainer {
+    border-top: 2px solid #cccccc;                
+    margin: auto;
+    border-bottom: 4px solid #4aaaa5;
+    background-image: url("backgrounds/vintage_speckles.png");
+    background-repeat: repeat;
+}
+.fourthContainer {
+    border: 1px solid #dddddd;
+    width: 960px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    background-color: #ffffff;
+}
+.mainHeader {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+}
+.nav {
+    background-color: #ffffff;
+    text-align: right;
+    display: inline-block;
+    margin-left: 250px;
+
+}
+.navLi {
+    display: inline-block;
+    padding: 10px;
+    
+}
+.header {
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 30px;
+}
+.profilePic {
+    float: left;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.form {
+    padding: 40px;
+}
+.footer {
+    background-color: #666666;
+    height: 60px;
+    text-align: center;
+}
+.copyright {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    /* HOW DO I STICK THIS TO THE BOTTOM OF THE DIV BOX? */
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
