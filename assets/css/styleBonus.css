@@ -1,6 +1,7 @@
 
 /**************************UNIVERSAL ELEMENTS. NOT PAGE SPECIFIC*****************************8***************/
-body {
+body, html {
+    height: 100%;
     margin: 0px;
     padding: 0px;
 }
@@ -11,7 +12,7 @@ h1 {
 }
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: #DD524A;
 }
 /* h4 set as copyright, wasn't sure if I'd need an h3 */
 h4 {
@@ -38,7 +39,7 @@ li a:hover {
 }
 /* each html page has a active class on it's own nav li. if you're on that page, it shows as active */
 li a.active {
-    color: #4aaaa5;
+    color: #DD524A;
     letter-spacing: 2px;
 }
 /* .firstContainer is the box around all header and nav elements, 100% width and sets the background color */
@@ -54,17 +55,17 @@ li a.active {
 }
 /* .thirdContainer is the box around everything under the header, includes background image */
 .thirdContainer {
-    border-top: 2px solid #cccccc;                 
+    border-top: 2px solid #393F44;                 
     margin: auto;
-    border-bottom: 4px solid #4aaaa5;
     background-image: url("backgrounds/funky-lines.png");
-    background-repeat: repeat;
+    padding-bottom: 150px;
 }
+
 /* .fourthContainer is the box around the main content, floats on top of background image */
 .fourthContainer {
-    border: 1px solid #dddddd; 
+    border: 1px solid #393F44; 
     width: 860px; /*with is 100 less because of the 50px of padding on each side*/
-    margin: 40px auto 80px auto;
+    margin: 40px auto 0px auto;
     padding: 0px 50px 50px 50px;
     background-color: #ffffff;
 }
@@ -94,7 +95,7 @@ it adds some margins to make everything look nice, and includes the line beween 
 }    
 .footer {
     position: relative;
-    background-color: #666666;
+    background-color: #393F44;
     height: 60px;
     text-align: center;
 }
@@ -102,9 +103,27 @@ it adds some margins to make everything look nice, and includes the line beween 
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    bottom: 0px;
+    bottom: -5px;
     left: 50%;
 }
+            /*******************STICKY FOOTER***************************/
+
+.footerWrapper {
+min-height: 100%;
+
+/* Equal to height of footer */
+/* But also accounting for potential margin-bottom of last child */
+margin-bottom: -70px;
+}
+.footer {
+    border-top: 4px solid #4aaaa5;
+    height: 70px;
+}
+.push {
+    height: 100%;
+
+}
+
 #navBorder1 {
     border-right: 1px solid #cccccc;
 }
@@ -116,8 +135,10 @@ it adds some margins to make everything look nice, and includes the line beween 
 
 /*.profilePic is the image of me and margins to nudge it */
 .profilePic {
+    width: 260px;
     float: left;
     margin-right: 20px;
+    border: 8px double #4aaaa5;
 }
 /****************************CONTACT-PAGE SPECIFIC ELEMENTS*********************************************/
 label {
@@ -219,6 +240,7 @@ label {
     padding: 20px 0px 20px 0px;
     z-index: 0;
     text-align: center;
+    text-decoration: none;
 }
 .banner:hover {
     background-color: #cccccc;
