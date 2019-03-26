@@ -5,6 +5,9 @@ body, html {
     margin: 0px;
     padding: 0px;
 }
+body {
+    background-image: url("backgrounds/funky-lines.png");
+}
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding-left: 15px;
@@ -55,10 +58,9 @@ li a.active {
 }
 /* .thirdContainer is the box around everything under the header, includes background image */
 .thirdContainer {
-    border-top: 2px solid #393F44;                 
+    border-top: 3px solid #393F44;                 
     margin: auto;
-    background-image: url("backgrounds/funky-lines.png");
-    padding-bottom: 150px;
+    padding-bottom: 120px;
 }
 
 /* .fourthContainer is the box around the main content, floats on top of background image */
@@ -66,7 +68,7 @@ li a.active {
     border: 1px solid #393F44; 
     width: 860px; /*with is 100 less because of the 50px of padding on each side*/
     margin: 40px auto 0px auto;
-    padding: 0px 50px 50px 50px;
+    padding: 0px 50px 40px 50px;
     background-color: #ffffff;
 }
 /* .mainHeader is the box around the name, it is WITHIN the first and secondContainers */
@@ -97,12 +99,10 @@ it adds some margins to make everything look nice, and includes the line beween 
     position: relative;
     background-color: #393F44;
     height: 60px;
-    text-align: center;
+    border-top: 8px solid #4aaaa5;
 }
 .copyright {
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
     bottom: -5px;
     left: 50%;
 }
@@ -113,15 +113,10 @@ min-height: 100%;
 
 /* Equal to height of footer */
 /* But also accounting for potential margin-bottom of last child */
-margin-bottom: -70px;
-}
-.footer {
-    border-top: 4px solid #4aaaa5;
-    height: 70px;
+margin-bottom: -68px;
 }
 .push {
     height: 100%;
-
 }
 
 #navBorder1 {
