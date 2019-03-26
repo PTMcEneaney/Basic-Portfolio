@@ -58,7 +58,7 @@ li a.active {
 }
 /* .thirdContainer is the box around everything under the header, includes background image */
 .thirdContainer {
-    border-top: 3px solid #393F44;                 
+    border-top: 2px solid #393F44;                 
     margin: auto;
     padding-bottom: 120px;
 }
@@ -99,7 +99,7 @@ it adds some margins to make everything look nice, and includes the line beween 
     position: relative;
     background-color: #393F44;
     height: 60px;
-    border-top: 8px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
 }
 .copyright {
     position: absolute;
@@ -113,7 +113,7 @@ min-height: 100%;
 
 /* Equal to height of footer */
 /* But also accounting for potential margin-bottom of last child */
-margin-bottom: -68px;
+margin-bottom: -70px;
 }
 .push {
     height: 100%;
